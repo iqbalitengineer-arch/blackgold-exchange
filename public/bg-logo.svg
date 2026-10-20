@@ -1,0 +1,37 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="100" viewBox="0 0 420 100">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF0A6"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A87513"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="100" rx="12" fill="#090909"/>
+
+  <rect x="12" y="12" width="76" height="76" rx="16"
+        fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+
+  <path d="M30 28 H57 C72 28 72 47 57 48
+           C75 49 75 71 56 71 H30 Z"
+        fill="none" stroke="url(#gold)" stroke-width="5"
+        stroke-linejoin="round"/>
+
+  <path d="M30 28 V71" stroke="#D4AF37" stroke-width="5"/>
+
+  <path d="M57 62 L65 54 L71 58 L80 43"
+        fill="none" stroke="#FFF0A6" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="102" y="49" font-family="Arial, Helvetica, sans-serif"
+        font-size="28" font-weight="800" letter-spacing="0.5"
+        fill="url(#gold)">BLACKGOLD</text>
+
+  <text x="103" y="72" font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="600" letter-spacing="5"
+        fill="#F5F5F5">EXCHANGE</text>
+
+  <text x="389" y="30" font-family="Arial, sans-serif"
+        font-size="12" font-weight="700" fill="#D4AF37">TM</text>
+</svg>
