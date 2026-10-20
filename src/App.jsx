@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { supabase } from "./supabase";
 import "./App.css";
-import CustomerService from "./customerservice";
+import CustomerService from "./CustomerService";
 
 const MARKETS = [
   {
